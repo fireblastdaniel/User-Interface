@@ -135,18 +135,22 @@ button:hover {
 .about1 div{
 	display:inline-block;
 	width: 49%;
+	padding:1%;
 }
 .about2 div{
 	display:inline-block;
 	width:32%;
+	padding: 1%;
 }
 
 /* Contact styling */
 #contact p {
 	margin: 2% auto;
+	font-family: 'Roboto Mono', monospace;
 }
 
 /* Footer styling */
 footer {
 	text-align: center;
+	font-family: 'Roboto Mono', monospace;
 }
