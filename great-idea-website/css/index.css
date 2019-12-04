@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width:100%;
 }
 
 html, body {
@@ -63,4 +64,40 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* 							*/
+/*	Your code starts here! 	*/
+/*						    */
+
+/* General Styling here */
+head, body {
+	width: 876px;
+	margin: 0 auto;
+}
+section{
+	margin: 5% 0;
+}
+
+/* Nav bar styling */
+nav#links{
+	display:inline-block;
+	width:40%;
+}
+nav#logo{
+	display:inline-block;
+	width:25%;
+}
+nav a {
+	text-decoration:none;
+	color:grey;
+	margin: 0 2%;
+}
+
+/* Content styling */
+.about1 div{
+	display:inline-block;
+	width: 49%;
+}
+.about2 div{
+	display:inline-block;
+	width:32%;
+}
