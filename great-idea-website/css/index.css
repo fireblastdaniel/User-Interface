@@ -73,24 +73,52 @@ head, body {
 	width: 876px;
 	margin: 0 auto;
 }
-section{
+header, section{
 	margin: 5% 0;
 }
 
 /* Nav bar styling */
-nav#links{
+#links{
 	display:inline-block;
-	width:40%;
+	width:75%;
 }
-nav#logo{
+#logo-image{
 	display:inline-block;
-	width:25%;
+	width:20%;
+}
+#logo-image img {
+	max-width:100%;
 }
 nav a {
 	text-decoration:none;
-	color:grey;
-	margin: 0 2%;
+	color:#c8c8c8;
+	margin: 0 3%;
+	transition-duration:0.3s;
 }
+nav a:hover {
+	color:black;
+}
+
+/* Header styling */
+header div{
+	display:inline-block;
+	text-align:center;
+	width: 48%;
+}
+h1 {
+	font-size: 64px;
+	margin: 0 auto;
+}
+button {
+	background-color:white;
+	border: 1px solid black;
+	padding: 1.5% 8%;
+	transition-duration:0.5s;
+}
+button:hover {
+	background-color:#e7e7e7;
+}
+
 
 /* Content styling */
 .about1 div{
@@ -100,4 +128,14 @@ nav a {
 .about2 div{
 	display:inline-block;
 	width:32%;
+}
+
+/* Contact styling */
+#contact p {
+	margin: 2% auto;
+}
+
+/* Footer styling */
+footer {
+	text-align: center;
 }
